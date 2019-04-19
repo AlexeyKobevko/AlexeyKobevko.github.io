@@ -135,7 +135,11 @@ footer {
   box-shadow: 10px 10px 5px 0px #444766;
 }
 
-.btn:hover {
+.btn:active {
+  outline: none;
+}
+
+.btn:focus {
   outline: none;
 }
 
