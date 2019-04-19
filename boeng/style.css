@@ -135,6 +135,10 @@ footer {
   box-shadow: 10px 10px 5px 0px #444766;
 }
 
+.btn:hover {
+  outline: none;
+}
+
 @media (max-width: 768px) {
   .logo-wrapper {
     width: 15vw;
