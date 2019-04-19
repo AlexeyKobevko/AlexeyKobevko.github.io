@@ -10,5 +10,4 @@ function delMes(){
 
 btn.addEventListener('click', () => {
     field.textContent = 'Сюда прилетит результат';
-    setTimeout(delMes, 5000);
 });
