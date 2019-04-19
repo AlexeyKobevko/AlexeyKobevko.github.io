@@ -135,14 +135,13 @@ footer {
   box-shadow: 10px 10px 5px 0px #444766;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 768px) {
   .logo-wrapper {
-    width: 20vw;
+    width: 15vw;
     height: inherit;
   }
   .logo {
-    width: 50px;
-    height: 50px;
+    height: 12vw;
   }
   .sandwich {
     width: 20vw;
@@ -153,7 +152,7 @@ footer {
   }
   .conteiner,
   .footer {
-    height: 100px;
+    height: 15vw;
   }
   .select {
     height: 3rem;
@@ -172,4 +171,5 @@ footer {
             align-items: center;
   }
 }
+
 /*# sourceMappingURL=style.css.map */
